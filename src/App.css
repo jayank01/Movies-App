@@ -1,0 +1,116 @@
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-card {
+  width: 100vw;
+  height: 70vh;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  color: white;
+  position: relative;
+}
+
+.banner-img {
+  width: 100vw;
+  height: 70vh;
+}
+
+.movie-name {
+  background-color: rgba(0, 0, 0, 0.258);
+  width: 100%;
+  position: absolute;
+  top: 82.5%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-title {
+  color: rgb(232, 224, 224);
+}
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 20vw;
+  margin: 1rem;
+  color: white;
+  position: relative;
+}
+
+.movie-img {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 5%;
+}
+
+.movie-title {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.movie-button {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page-button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.fav-genre{
+  padding: 3rem;
+}
+
+.fav-table{
+  padding: 3rem;
+  overflow: auto;
+}
+
+.sort-button {
+  cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+  .banner-card {
+    height: 40vh;
+  }
+
+  .banner-img {
+    height: 40vh;
+  }
+
+  .movie-name {
+    top: 28vh;
+  }
+
+  .banner-title {
+    top: 16vh;
+    left: 5vw;
+  }
+
+  .movie-card {
+    width: 40vw;
+    margin: 0.1rem;
+  }
+
+  .movie-img {
+    width: 40vw;
+  }
+}
