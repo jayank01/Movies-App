@@ -17,12 +17,12 @@ Follow these steps to set up the project on your local machine:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/movies-app.git
+   git clone git@github.com:jayank01/Movies-App.git
    cd movies-app
    ```
 2. Install dependencies:
    ```sh
-   cd quiz-management-application
+   npm install
    ```
 
 ## Usage
